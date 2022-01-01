@@ -22,7 +22,7 @@ DATA = {
 
 def calculator(request, recipe):
     servings = int(request.GET.get('servings', 1))
-    recipe = DATA.get(recipe)
+    recipe = DATA.get(recipe).copy()
     for key, value in recipe.items():
         recipe[key] = value * servings
     context = {
