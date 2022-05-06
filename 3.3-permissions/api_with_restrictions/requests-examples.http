@@ -23,7 +23,7 @@ Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
 ###
 
 # попытка поменять объявление
-PATCH {{baseUrl}}/advertisements/7/
+PATCH {{baseUrl}}/advertisements/3/
 Content-Type: application/json
 Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 #Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
