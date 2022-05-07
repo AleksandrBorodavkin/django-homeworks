@@ -16,12 +16,17 @@ class AdvertisementViewSet(ModelViewSet):
     filterset_class = AdvertisementFilter
     filter_backends = [DjangoFilterBackend]
 
-
-def get_permissions(self):
-    """Получение прав для действий."""
-    if self.action in ["create", "update", "partial_update"]:
-        return [
-            IsAuthenticated(),
-            IsOwnerOrReadOnly()
-        ]
-    return []
+    def get_permissions(self):
+        """Получение прав для действий."""
+        if self.action in [
+            "create",
+            "update",
+            "partial_update",
+            "destroy",
+            "perform_destroy",
+        ]:
+            return [
+                IsAuthenticated(),
+                IsOwnerOrReadOnly()
+            ]
+        return []
