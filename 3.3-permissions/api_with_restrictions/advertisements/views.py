@@ -11,14 +11,6 @@ from advertisements.serializers import AdvertisementSerializer
 
 class AdvertisementViewSet(ModelViewSet):
     """ViewSet для объявлений."""
-
-    # TODO: настройте ViewSet, укажите атрибуты для кверисета,
-    #   сериализаторов и фильтров
-
-    # FIXME:
-    #  filter_backends = [DateFromToRangeFilter]
-    #  AttributeError: 'DateFromToRangeFilter' object has no attribute 'filter_queryset'
-
     queryset = Advertisement.objects.all()
     serializer_class = AdvertisementSerializer
     filterset_class = AdvertisementFilter

@@ -1,6 +1,7 @@
 # примеры API-запросов
 
 @baseUrl = https://localhost:8000/api
+
 ###
 
 # получение объявлений
@@ -29,7 +30,7 @@ Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 #Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
 {
-  "status": "OPEN"
+  "status": "CLOSED"
 }
 
 ###
@@ -42,4 +43,10 @@ Content-Type: application/json
 
 # фильтрация по дате
 GET {{baseUrl}}/advertisements/?created_at_before=2020-12-12
+Content-Type: application/json
+
+###
+
+# фильтрация по статусу
+GET {{baseUrl}}/advertisements/?status=CLOSED
 Content-Type: application/json
