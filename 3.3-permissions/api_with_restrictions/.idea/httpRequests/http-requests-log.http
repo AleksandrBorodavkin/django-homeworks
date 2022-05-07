@@ -1,3 +1,235 @@
+GET http://localhost:8000/api/advertisements/?created_at_before=2020-12-12
+Content-Type: application/json
+
+<> 2022-05-07T235654.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?created_at_before=2020-12-12
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?created_at_before=2020-12-12
+Content-Type: application/json
+
+<> 2022-05-07T235646.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?created_at_before=2020-12-12
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=2
+Content-Type: application/json
+
+<> 2022-05-07T235626.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=2
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T235604.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T235459.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T235338.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=2
+Content-Type: application/json
+
+<> 2022-05-07T235326.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=2
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=2
+Content-Type: application/json
+
+<> 2022-05-07T235314.200.json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T235306.200.json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T235253.200.json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T235220.200.json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T234443.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T234420.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T234239.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=2
+Content-Type: application/json
+
+<> 2022-05-07T234047.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=2
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T234036.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T233958.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8000/api/advertisements/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "title": "Шкаф IKEA",
+  "description": "Срочно"
+}
+
+<> 2022-05-07T233947.201.json
+
+###
+
+POST http://{{baseUrl}}/advertisements/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "title": "Шкаф IKEA",
+  "description": "Срочно"
+}
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=1
+Content-Type: application/json
+
+<> 2022-05-07T233931.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=1
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?creator_id=2
+Content-Type: application/json
+
+<> 2022-05-07T233910.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?creator_id=2
+Content-Type: application/json
+
+###
+
 DELETE http://localhost:8000/api/advertisements/13/
 Content-Type: application/json
 Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
@@ -95,328 +327,6 @@ Content-Type: application/json
 
 GET http://{{baseUrl}}/advertisements/
 Content-Type: application/json
-
-###
-
-DELETE http://localhost:8000/api/advertisements/12/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-<> 2022-05-07T190335.403.json
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/12/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-###
-
-DELETE http://localhost:8000/api/advertisements/11/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-<> 2022-05-07T190322.404.json
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/11/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-###
-
-POST http://localhost:8000/api/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-<> 2022-05-07T190305.201.json
-
-###
-
-POST http://{{baseUrl}}/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-###
-
-DELETE http://localhost:8000/api/advertisements/11/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/11/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-PATCH http://localhost:8000/api/advertisements/11/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-{
-  "status": "OPEN"
-}
-
-<> 2022-05-07T190225.403.json
-
-###
-
-PATCH http://{{baseUrl}}/advertisements/11/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-{
-  "status": "OPEN"
-}
-
-###
-
-PATCH http://localhost:8000/api/advertisements/11/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-{
-  "status": "OPEN"
-}
-
-<> 2022-05-07T190214.403.json
-
-###
-
-PATCH http://{{baseUrl}}/advertisements/11/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-{
-  "status": "OPEN"
-}
-
-###
-
-POST http://localhost:8000/api/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-<> 2022-05-07T190154.201.json
-
-###
-
-POST http://{{baseUrl}}/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-###
-
-GET http://localhost:8000/api/advertisements/?created_at_before=2020-12-12
-Content-Type: application/json
-
-<> 2022-05-07T190135.200.json
-
-###
-
-GET http://{{baseUrl}}/advertisements/?created_at_before=2020-12-12
-Content-Type: application/json
-
-###
-
-GET http://{{baseUrl}}/advertisements/?status=CLOSED
-Content-Type: application/json
-
-###
-
-GET http://localhost:8000/api/advertisements/?status=CLOSED
-Content-Type: application/json
-
-<> 2022-05-07T190111.200.json
-
-###
-
-GET http://{{baseUrl}}/advertisements/?status=CLOSED
-Content-Type: application/json
-
-###
-
-DELETE http://localhost:8000/api/advertisements/10/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/10/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-PATCH http://localhost:8000/api/advertisements/10/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-{
-  "status": "OPEN"
-}
-
-<> 2022-05-07T185707.403.json
-
-###
-
-PATCH http://{{baseUrl}}/advertisements/10/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-{
-  "status": "OPEN"
-}
-
-###
-
-POST http://localhost:8000/api/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-<> 2022-05-07T185643.201.json
-
-###
-
-POST http://{{baseUrl}}/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-###
-
-DELETE http://localhost:8000/api/advertisements/9/
-Content-Type: application/json
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/9/
-Content-Type: application/json
-
-###
-
-POST http://localhost:8000/api/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-<> 2022-05-07T185339.201.json
-
-###
-
-POST http://{{baseUrl}}/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-###
-
-POST http://localhost:8000/api/advertisements/
-Content-Type: application/json
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-<> 2022-05-07T185301.500.html
-
-###
-
-POST http://{{baseUrl}}/advertisements/
-Content-Type: application/json
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-###
-
-POST http://localhost:8000/api/advertisements/
-Content-Type: application/json
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-<> 2022-05-07T185248.500.html
-
-###
-
-POST http://{{baseUrl}}/advertisements/
-Content-Type: application/json
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-###
-
-DELETE http://localhost:8000/api/advertisements/8/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/8/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-POST http://localhost:8000/api/advertisements/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-<> 2022-05-07T182147.201.json
 
 ###
 
