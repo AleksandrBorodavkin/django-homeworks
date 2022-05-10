@@ -1,7 +1,31 @@
+GET http://localhost:8000/api/advertisements/?status=CLOSED
+Content-Type: application/json
+
+<> 2022-05-11T004500.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?status=CLOSED
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/api/advertisements/?created_at_before=2022-12-12
+Content-Type: application/json
+
+<> 2022-05-11T004445.200.json
+
+###
+
+GET http://{{baseUrl}}/advertisements/?created_at_before=2022-12-12
+Content-Type: application/json
+
+###
+
 GET http://localhost:8000/api/advertisements/?created_at_before=2020-12-12
 Content-Type: application/json
 
-<> 2022-05-07T235654.200.json
+<> 2022-05-11T004422.200.json
 
 ###
 
@@ -13,7 +37,7 @@ Content-Type: application/json
 GET http://localhost:8000/api/advertisements/?created_at_before=2020-12-12
 Content-Type: application/json
 
-<> 2022-05-07T235646.200.json
+<> 2022-05-11T004417.200.json
 
 ###
 
@@ -25,7 +49,7 @@ Content-Type: application/json
 GET http://localhost:8000/api/advertisements/?creator_id=2
 Content-Type: application/json
 
-<> 2022-05-07T235626.200.json
+<> 2022-05-11T004357.200.json
 
 ###
 
@@ -34,151 +58,319 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/20/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235604.200.json
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T004322.400.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/20/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/20/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235459.200.json
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T004221.400.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/20/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235338.200.json
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T004206.200.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=2
+PATCH http://localhost:8000/api/advertisements/18/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235326.200.json
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T004155.200.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=2
+PATCH http://{{baseUrl}}/advertisements/18/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=2
+PATCH http://localhost:8000/api/advertisements/18/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235314.200.json
+{
+  "status": "CLOSED"
+}
+
+<> 2022-05-11T004030.200.json
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/18/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235306.200.json
+{
+  "status": "CLOSED"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/17/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235253.200.json
+{
+  "status": "CLOSED"
+}
+
+<> 2022-05-11T004019.200.json
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/17/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T235220.200.json
+{
+  "status": "CLOSED"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/16/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T234443.200.json
+{
+  "status": "CLOSED"
+}
+
+<> 2022-05-11T003949.200.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/16/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "CLOSED"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/15/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T234420.200.json
+{
+  "status": "CLOSED"
+}
+
+<> 2022-05-11T003937.200.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/15/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "CLOSED"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T234239.200.json
+{
+  "status": "CLOSED"
+}
+
+<> 2022-05-11T003923.200.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "CLOSED"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=2
+PATCH http://localhost:8000/api/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T234047.200.json
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003912.400.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=2
+PATCH http://{{baseUrl}}/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T234036.200.json
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003833.400.json
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
+PATCH http://localhost:8000/api/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T233958.200.json
+{
+  "status": "OPEN"
+}
 
 ###
 
-GET http://{{baseUrl}}/advertisements/?creator_id=1
+PATCH http://{{baseUrl}}/advertisements/19/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+###
+
+PATCH http://{{baseUrl}}/advertisements/19/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+###
+
+PATCH http://localhost:8000/api/advertisements/19/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003709.200.json
+
+###
+
+PATCH http://{{baseUrl}}/advertisements/19/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+###
+
+PATCH http://localhost:8000/api/advertisements/19/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003531.200.json
+
+###
+
+PATCH http://{{baseUrl}}/advertisements/19/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
@@ -191,7 +383,7 @@ Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
   "description": "Срочно"
 }
 
-<> 2022-05-07T233947.201.json
+<> 2022-05-11T003316.400.json
 
 ###
 
@@ -206,65 +398,91 @@ Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
 ###
 
-GET http://localhost:8000/api/advertisements/?creator_id=1
-Content-Type: application/json
-
-<> 2022-05-07T233931.200.json
-
-###
-
-GET http://{{baseUrl}}/advertisements/?creator_id=1
-Content-Type: application/json
-
-###
-
-GET http://localhost:8000/api/advertisements/?creator_id=2
-Content-Type: application/json
-
-<> 2022-05-07T233910.200.json
-
-###
-
-GET http://{{baseUrl}}/advertisements/?creator_id=2
-Content-Type: application/json
-
-###
-
-DELETE http://localhost:8000/api/advertisements/13/
+PATCH http://localhost:8000/api/advertisements/19/
 Content-Type: application/json
 Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003201.200.json
+
 ###
 
-DELETE http://{{baseUrl}}/advertisements/13/
+PATCH http://{{baseUrl}}/advertisements/19/
 Content-Type: application/json
 Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-###
-
-DELETE http://localhost:8000/api/advertisements/13/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-<> 2022-05-07T191529.403.json
+{
+  "status": "OPEN"
+}
 
 ###
 
-DELETE http://{{baseUrl}}/advertisements/13/
+PATCH http://localhost:8000/api/advertisements/18/
 Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003148.200.json
 
 ###
 
-DELETE http://localhost:8000/api/advertisements/13/
+PATCH http://{{baseUrl}}/advertisements/18/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 
-<> 2022-05-07T191515.401.json
+{
+  "status": "OPEN"
+}
 
 ###
 
-DELETE http://{{baseUrl}}/advertisements/13/
+PATCH http://localhost:8000/api/advertisements/16/
 Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003139.200.json
+
+###
+
+PATCH http://{{baseUrl}}/advertisements/16/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+###
+
+PATCH http://localhost:8000/api/advertisements/17/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
+
+<> 2022-05-11T003109.200.json
+
+###
+
+PATCH http://{{baseUrl}}/advertisements/17/
+Content-Type: application/json
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+
+{
+  "status": "OPEN"
+}
 
 ###
 
@@ -277,56 +495,7 @@ Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
   "description": "Срочно"
 }
 
-<> 2022-05-07T191447.201.json
-
-###
-
-POST http://{{baseUrl}}/advertisements/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-{
-  "title": "Шкаф IKEA",
-  "description": "Срочно"
-}
-
-###
-
-DELETE http://localhost:8000/api/advertisements/12/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/12/
-Content-Type: application/json
-Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-
-###
-
-DELETE http://localhost:8000/api/advertisements/12/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-<> 2022-05-07T190411.403.json
-
-###
-
-DELETE http://{{baseUrl}}/advertisements/12/
-Content-Type: application/json
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
-
-###
-
-GET http://localhost:8000/api/advertisements/
-Content-Type: application/json
-
-<> 2022-05-07T190401.200.json
-
-###
-
-GET http://{{baseUrl}}/advertisements/
-Content-Type: application/json
+<> 2022-05-11T003057.201.json
 
 ###
 

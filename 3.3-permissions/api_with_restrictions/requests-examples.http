@@ -24,10 +24,10 @@ Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
 ###
 
 # попытка поменять объявление
-PATCH {{baseUrl}}/advertisements/11/
+PATCH {{baseUrl}}/advertisements/20/
 Content-Type: application/json
-#Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
-Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
+Authorization: Token 28482ae8ac89ca747e5328a1aa19063c68851d69
+#Authorization: Token 9aa60f5735492182d42d98b68c31c5cf415bb57c
 
 {
   "status": "OPEN"
@@ -42,7 +42,7 @@ Content-Type: application/json
 ###
 
 # фильтрация по дате
-GET {{baseUrl}}/advertisements/?created_at_before=2020-12-12
+GET {{baseUrl}}/advertisements/?created_at_before=2022-12-12
 Content-Type: application/json
 
 ###

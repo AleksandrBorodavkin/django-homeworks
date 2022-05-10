@@ -38,20 +38,18 @@ class AdvertisementSerializer(serializers.ModelSerializer):
         return super().create(validated_data)
 
     def validate(self, data):
-
         """Метод для валидации. Вызывается при создании и обновлении."""
         advs = Advertisement.objects.filter(
-            creator=self.context["request"].user)
+            creator=self.context["request"].user, status='OPEN')
+        print(advs.count())
 
-        st = 0
-        for adv in advs:
-            if adv.status == 'OPEN':
-                st += 1
-
-        if st >= 10:
-            raise ValidationError(
-                'Открытых объявлений не должно быть больше 10 штук')
-
-    # TODO: добавьте требуемую валидацию
+        if self.context['view'].action == 'create':
+            if advs.count() >= 10:
+                raise ValidationError(
+                    'Открытых объявлений не должно быть больше 10 штук')
+        if self.context['view'].action == 'partial_update':
+            if advs.count() >= 10 and data['status'] == 'OPEN':
+                raise ValidationError(
+                    'Открытых объявлений не должно быть больше 10 штук')
 
         return data
