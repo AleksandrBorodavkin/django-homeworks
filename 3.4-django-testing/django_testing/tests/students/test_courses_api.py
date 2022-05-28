@@ -32,7 +32,7 @@ def test_retrieve_course(client, course_factory):
     courses = course_factory(_quantity=10)
 
     # Act
-    response = client.get('/api/v1/courses/1/')
+    response = client.get(f'/api/v1/courses/{courses[0].id}/')
 
     # Assert
     assert response.status_code == 200
@@ -98,9 +98,8 @@ def test_update_course(client, course_factory):
     courses = course_factory(_quantity=10)
 
     # Act
-    response = client.patch('/api/v1/courses/1/', data={'name': 'course #1'})
-    new_entry = client.get('/api/v1/courses/1/')
-    new_entry = new_entry.json()
+    response = client.patch(f'/api/v1/courses/{courses[0].id}/', data={'name': 'course #1'})
+    new_entry = response.json()
 
     # Assert
     assert response.status_code == 200
@@ -113,7 +112,7 @@ def test_delete_course(client, course_factory):
     courses = course_factory(_quantity=10)
 
     # Act
-    response = client.delete('/api/v1/courses/1/')
+    response = client.delete(f'/api/v1/courses/{courses[0].id}/')
 
     # Assert
     assert response.status_code == 204
